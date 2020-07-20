@@ -1,2 +1,2 @@
-# coding_test
+# codingtest
 Created with CodeSandbox
