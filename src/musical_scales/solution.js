@@ -1,5 +1,4 @@
 function solution(input) {
-  console.log(input);
   const inputList = input.split(" ").map(val => Number(val));
   let isAsc = false;
   let isDesc = false;
