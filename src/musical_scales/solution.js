@@ -1,21 +1,30 @@
-function solution(inputs) {
-  const ascOrder = [1, 2, 3, 4, 5, 6, 7, 8];
-  const descOrder = Array.from(ascOrder).reverse();
-  let result;
-
-  for (const [inIdx, input] of inputs.entries()) {
-    if (ascOrder[inIdx] === input) {
-      result = "ascending";
-    } else if (descOrder[inIdx] === input) {
-      result = "descending";
+function solution(input) {
+  console.log(input);
+  const inputList = input.split(" ").map(val => Number(val));
+  let isAsc = false;
+  let isDesc = false;
+  let isMixed = false;
+  for (const [inIdx, input] of inputList.entries()) {
+    if (inIdx === inputList.length - 1) break;
+    const nextInput = inputList[inIdx + 1];
+    if (input < nextInput) {
+      if (isDesc) {
+        isMixed = true;
+        break;
+      }
+      isAsc = true;
     } else {
-      result = "mixed";
-      break;
+      if (isAsc) {
+        isMixed = true;
+        break;
+      }
+      isDesc = true;
     }
   }
-  return result;
-}
 
-console.log(solution([1, 2, 3]));
+  if (isMixed || (isAsc && isDesc)) return "mixed";
+  if (isAsc) return "ascending";
+  if (isDesc) return "descending";
+}
 
 export default solution;
