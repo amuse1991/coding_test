@@ -1,4 +1,4 @@
-export default function(inputs) {
+const solution = function(inputs) {
   inputs = inputs.slice(1);
   const ageMap = inputs.reduce((resMap, member) => {
     const [age, name] = member.split(" ");
@@ -20,4 +20,10 @@ export default function(inputs) {
     ];
   }, []);
   return results;
-}
+};
+
+const optSolution = function(inputs) {
+  inputs = inputs.slice(1);
+};
+
+export { solution, optSolution };

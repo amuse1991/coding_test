@@ -1,4 +1,4 @@
-import solution from "./solution";
+import { solution } from "./solution";
 
 test("sort_with_old", () => {
   const input = ["3", "21 Junkyu", "21 Dohyun", "20 Sunyoung"];
