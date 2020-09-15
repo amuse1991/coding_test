@@ -7,3 +7,4 @@
 - [완주하지 못한 선수](https://github.com/amuse1991/coding_test/blob/master/src/hash/uncompleted_player/uncomplted_player.md)
 - [모의고사](https://github.com/amuse1991/coding_test/blob/master/src/exhaustive_search/mockExam/mockExam.md)
 - [뽑아서 더하기](https://github.com/amuse1991/coding_test/blob/master/src/exhaustive_search/pickAndAdd/pickAndAdd.md)
+- [K번째 수](https://github.com/amuse1991/coding_test/blob/master/src/sort/kthNumber/kthNumber.md)
