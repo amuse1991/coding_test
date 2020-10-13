@@ -11,5 +11,5 @@
 
 ## 레벨 2
 
-[파일명 정렬](https://github.com/amuse1991/coding_test/blob/master/src/sort/filenameSort/filenameSort.md)
-[기능 개발](https://github.com/amuse1991/coding_test/blob/master/src/queue/functionDev/fuctionDev.md)
+- [파일명 정렬](https://github.com/amuse1991/coding_test/blob/master/src/sort/filenameSort/filenameSort.md)
+- [기능 개발](https://github.com/amuse1991/coding_test/blob/master/src/queue/functionDev/fuctionDev.md)
