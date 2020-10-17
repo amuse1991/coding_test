@@ -13,3 +13,7 @@
 
 - [파일명 정렬](https://github.com/amuse1991/coding_test/blob/master/src/sort/filenameSort/filenameSort.md)
 - [기능 개발](https://github.com/amuse1991/coding_test/blob/master/src/queue/functionDev/fuctionDev.md)
+
+## 2020 카카오 겨울 인턴쉽
+
+- [수식 최대화(미완료)](https://github.com/amuse1991/coding_test/blob/master/src/simulation/maxexpr/maxexpr.md)
